@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Bosnian spellchecker",
+    "version": "1.1",
+    "description": "Bosnian spellchecker firefox add-on",
+
+    "background": {
+        "scripts": ["index.js"]
+    },
+
+    "page_action": {
+        "default_icon": "icons/icon.png",
+        "browser_style": true
+    },
+
+    "permissions": [
+        "activeTab",
+    ]
+}
