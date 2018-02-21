@@ -1,0 +1,2194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<title>libreoffice/dictionaries - main, development dictionaries repository</title>
+<meta name='generator' content='cgit v0.10.2'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='https://cgit.freedesktop.org/cgit.css'/>
+<link rel='shortcut icon' href='/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='https://cgit.freedesktop.org/libreoffice/dictionaries/atom/bs_BA/bs_BA.aff?h=master' type='application/atom+xml'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='https://cgit.freedesktop.org/logo.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a title='libreoffice/dictionaries' href='/libreoffice/dictionaries/'>libreoffice/dictionaries</a></td><td class='form'><form method='get' action=''>
+<select name='h' onchange='this.form.submit();'>
+<option value='distro/collabora/cp-4.0'>distro/collabora/cp-4.0</option>
+<option value='distro/collabora/cp-4.1'>distro/collabora/cp-4.1</option>
+<option value='distro/collabora/cp-4.2'>distro/collabora/cp-4.2</option>
+<option value='distro/collabora/cp-4.3'>distro/collabora/cp-4.3</option>
+<option value='distro/collabora/cp-4.4'>distro/collabora/cp-4.4</option>
+<option value='distro/collabora/cp-5.0'>distro/collabora/cp-5.0</option>
+<option value='distro/collabora/lof-4.3'>distro/collabora/lof-4.3</option>
+<option value='distro/collabora/lov-4.4'>distro/collabora/lov-4.4</option>
+<option value='distro/collabora/lov-5.0'>distro/collabora/lov-5.0</option>
+<option value='distro/collabora/lov-5.1'>distro/collabora/lov-5.1</option>
+<option value='distro/suse/suse-3.6'>distro/suse/suse-3.6</option>
+<option value='distro/suse/suse-3.6.3'>distro/suse/suse-3.6.3</option>
+<option value='distro/suse/suse-4.0'>distro/suse/suse-4.0</option>
+<option value='distro/suse/suse-4.0.3'>distro/suse/suse-4.0.3</option>
+<option value='feature/gbuild_dictionaries'>feature/gbuild_dictionaries</option>
+<option value='feature/submodules'>feature/submodules</option>
+<option value='libreoffice-3-5'>libreoffice-3-5</option>
+<option value='libreoffice-3-5-0'>libreoffice-3-5-0</option>
+<option value='libreoffice-3-5-1'>libreoffice-3-5-1</option>
+<option value='libreoffice-3-5-2'>libreoffice-3-5-2</option>
+<option value='libreoffice-3-5-3'>libreoffice-3-5-3</option>
+<option value='libreoffice-3-5-4'>libreoffice-3-5-4</option>
+<option value='libreoffice-3-5-5'>libreoffice-3-5-5</option>
+<option value='libreoffice-3-5-6'>libreoffice-3-5-6</option>
+<option value='libreoffice-3-5-7'>libreoffice-3-5-7</option>
+<option value='libreoffice-3-6'>libreoffice-3-6</option>
+<option value='libreoffice-3-6-0'>libreoffice-3-6-0</option>
+<option value='libreoffice-3-6-1'>libreoffice-3-6-1</option>
+<option value='libreoffice-3-6-2'>libreoffice-3-6-2</option>
+<option value='libreoffice-3-6-3'>libreoffice-3-6-3</option>
+<option value='libreoffice-3-6-4'>libreoffice-3-6-4</option>
+<option value='libreoffice-3-6-5'>libreoffice-3-6-5</option>
+<option value='libreoffice-3-6-6'>libreoffice-3-6-6</option>
+<option value='libreoffice-3-6-7'>libreoffice-3-6-7</option>
+<option value='libreoffice-3.5.3.1'>libreoffice-3.5.3.1</option>
+<option value='libreoffice-3.5.5.1'>libreoffice-3.5.5.1</option>
+<option value='libreoffice-3.5.6.1'>libreoffice-3.5.6.1</option>
+<option value='libreoffice-3.5.99.1'>libreoffice-3.5.99.1</option>
+<option value='libreoffice-4-0'>libreoffice-4-0</option>
+<option value='libreoffice-4-0-0'>libreoffice-4-0-0</option>
+<option value='libreoffice-4-0-1'>libreoffice-4-0-1</option>
+<option value='libreoffice-4-0-2'>libreoffice-4-0-2</option>
+<option value='libreoffice-4-0-3'>libreoffice-4-0-3</option>
+<option value='libreoffice-4-0-4'>libreoffice-4-0-4</option>
+<option value='libreoffice-4-0-5'>libreoffice-4-0-5</option>
+<option value='libreoffice-4-0-6'>libreoffice-4-0-6</option>
+<option value='libreoffice-4-1'>libreoffice-4-1</option>
+<option value='libreoffice-4-1-0'>libreoffice-4-1-0</option>
+<option value='libreoffice-4-1-1'>libreoffice-4-1-1</option>
+<option value='libreoffice-4-1-2'>libreoffice-4-1-2</option>
+<option value='libreoffice-4-1-3'>libreoffice-4-1-3</option>
+<option value='libreoffice-4-1-4'>libreoffice-4-1-4</option>
+<option value='libreoffice-4-1-5'>libreoffice-4-1-5</option>
+<option value='libreoffice-4-1-6'>libreoffice-4-1-6</option>
+<option value='libreoffice-4-2'>libreoffice-4-2</option>
+<option value='libreoffice-4-2-0'>libreoffice-4-2-0</option>
+<option value='libreoffice-4-2-1'>libreoffice-4-2-1</option>
+<option value='libreoffice-4-2-2'>libreoffice-4-2-2</option>
+<option value='libreoffice-4-2-3'>libreoffice-4-2-3</option>
+<option value='libreoffice-4-2-4'>libreoffice-4-2-4</option>
+<option value='libreoffice-4-2-5'>libreoffice-4-2-5</option>
+<option value='libreoffice-4-2-6'>libreoffice-4-2-6</option>
+<option value='libreoffice-4-2-7'>libreoffice-4-2-7</option>
+<option value='libreoffice-4-2-8'>libreoffice-4-2-8</option>
+<option value='libreoffice-4-3'>libreoffice-4-3</option>
+<option value='libreoffice-4-3-0'>libreoffice-4-3-0</option>
+<option value='libreoffice-4-3-1'>libreoffice-4-3-1</option>
+<option value='libreoffice-4-3-2'>libreoffice-4-3-2</option>
+<option value='libreoffice-4-3-3'>libreoffice-4-3-3</option>
+<option value='libreoffice-4-3-4'>libreoffice-4-3-4</option>
+<option value='libreoffice-4-3-5'>libreoffice-4-3-5</option>
+<option value='libreoffice-4-3-6'>libreoffice-4-3-6</option>
+<option value='libreoffice-4-3-7'>libreoffice-4-3-7</option>
+<option value='libreoffice-4-4'>libreoffice-4-4</option>
+<option value='libreoffice-4-4-0'>libreoffice-4-4-0</option>
+<option value='libreoffice-4-4-1'>libreoffice-4-4-1</option>
+<option value='libreoffice-4-4-2'>libreoffice-4-4-2</option>
+<option value='libreoffice-4-4-3'>libreoffice-4-4-3</option>
+<option value='libreoffice-4-4-4'>libreoffice-4-4-4</option>
+<option value='libreoffice-4-4-5'>libreoffice-4-4-5</option>
+<option value='libreoffice-4-4-6'>libreoffice-4-4-6</option>
+<option value='libreoffice-4-4-7'>libreoffice-4-4-7</option>
+<option value='libreoffice-5-0'>libreoffice-5-0</option>
+<option value='libreoffice-5-0-0'>libreoffice-5-0-0</option>
+<option value='libreoffice-5-0-1'>libreoffice-5-0-1</option>
+<option value='libreoffice-5-0-2'>libreoffice-5-0-2</option>
+<option value='libreoffice-5-0-3'>libreoffice-5-0-3</option>
+<option value='libreoffice-5-0-4'>libreoffice-5-0-4</option>
+<option value='libreoffice-5-0-5'>libreoffice-5-0-5</option>
+<option value='libreoffice-5-0-6'>libreoffice-5-0-6</option>
+<option value='libreoffice-5-1'>libreoffice-5-1</option>
+<option value='libreoffice-5-1-0'>libreoffice-5-1-0</option>
+<option value='libreoffice-5-1-1'>libreoffice-5-1-1</option>
+<option value='libreoffice-5-1-2'>libreoffice-5-1-2</option>
+<option value='libreoffice-5-1-3'>libreoffice-5-1-3</option>
+<option value='libreoffice-5-1-4'>libreoffice-5-1-4</option>
+<option value='libreoffice-5-2'>libreoffice-5-2</option>
+<option value='master' selected='selected'>master</option>
+</select> <input type='submit' name='' value='switch'/></form></td></tr>
+<tr><td class='sub'>main, development dictionaries repository</td><td class='sub right'>root</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/libreoffice/dictionaries/'>summary</a><a href='/libreoffice/dictionaries/refs/'>refs</a><a href='/libreoffice/dictionaries/log/bs_BA/bs_BA.aff'>log</a><a class='active' href='/libreoffice/dictionaries/tree/bs_BA/bs_BA.aff'>tree</a><a href='/libreoffice/dictionaries/commit/bs_BA/bs_BA.aff'>commit</a><a href='/libreoffice/dictionaries/diff/bs_BA/bs_BA.aff'>diff</a></td><td class='form'><form class='right' method='get' action='/libreoffice/dictionaries/log/bs_BA/bs_BA.aff'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='text' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/libreoffice/dictionaries/tree/'>root</a>/<a href='/libreoffice/dictionaries/tree/bs_BA'>bs_BA</a>/<a href='/libreoffice/dictionaries/tree/bs_BA/bs_BA.aff'>bs_BA.aff</a></div><div class='content'>blob: 196ab5e9d9f84eeb19904ef8794a87d0eeb88e33 (<a href='/libreoffice/dictionaries/plain/bs_BA/bs_BA.aff'>plain</a>)
+<table summary='blob content' class='blob'>
+<tr><td class='linenumbers'><pre><a id='n1' href='#n1'>1</a>
+<a id='n2' href='#n2'>2</a>
+<a id='n3' href='#n3'>3</a>
+<a id='n4' href='#n4'>4</a>
+<a id='n5' href='#n5'>5</a>
+<a id='n6' href='#n6'>6</a>
+<a id='n7' href='#n7'>7</a>
+<a id='n8' href='#n8'>8</a>
+<a id='n9' href='#n9'>9</a>
+<a id='n10' href='#n10'>10</a>
+<a id='n11' href='#n11'>11</a>
+<a id='n12' href='#n12'>12</a>
+<a id='n13' href='#n13'>13</a>
+<a id='n14' href='#n14'>14</a>
+<a id='n15' href='#n15'>15</a>
+<a id='n16' href='#n16'>16</a>
+<a id='n17' href='#n17'>17</a>
+<a id='n18' href='#n18'>18</a>
+<a id='n19' href='#n19'>19</a>
+<a id='n20' href='#n20'>20</a>
+<a id='n21' href='#n21'>21</a>
+<a id='n22' href='#n22'>22</a>
+<a id='n23' href='#n23'>23</a>
+<a id='n24' href='#n24'>24</a>
+<a id='n25' href='#n25'>25</a>
+<a id='n26' href='#n26'>26</a>
+<a id='n27' href='#n27'>27</a>
+<a id='n28' href='#n28'>28</a>
+<a id='n29' href='#n29'>29</a>
+<a id='n30' href='#n30'>30</a>
+<a id='n31' href='#n31'>31</a>
+<a id='n32' href='#n32'>32</a>
+<a id='n33' href='#n33'>33</a>
+<a id='n34' href='#n34'>34</a>
+<a id='n35' href='#n35'>35</a>
+<a id='n36' href='#n36'>36</a>
+<a id='n37' href='#n37'>37</a>
+<a id='n38' href='#n38'>38</a>
+<a id='n39' href='#n39'>39</a>
+<a id='n40' href='#n40'>40</a>
+<a id='n41' href='#n41'>41</a>
+<a id='n42' href='#n42'>42</a>
+<a id='n43' href='#n43'>43</a>
+<a id='n44' href='#n44'>44</a>
+<a id='n45' href='#n45'>45</a>
+<a id='n46' href='#n46'>46</a>
+<a id='n47' href='#n47'>47</a>
+<a id='n48' href='#n48'>48</a>
+<a id='n49' href='#n49'>49</a>
+<a id='n50' href='#n50'>50</a>
+<a id='n51' href='#n51'>51</a>
+<a id='n52' href='#n52'>52</a>
+<a id='n53' href='#n53'>53</a>
+<a id='n54' href='#n54'>54</a>
+<a id='n55' href='#n55'>55</a>
+<a id='n56' href='#n56'>56</a>
+<a id='n57' href='#n57'>57</a>
+<a id='n58' href='#n58'>58</a>
+<a id='n59' href='#n59'>59</a>
+<a id='n60' href='#n60'>60</a>
+<a id='n61' href='#n61'>61</a>
+<a id='n62' href='#n62'>62</a>
+<a id='n63' href='#n63'>63</a>
+<a id='n64' href='#n64'>64</a>
+<a id='n65' href='#n65'>65</a>
+<a id='n66' href='#n66'>66</a>
+<a id='n67' href='#n67'>67</a>
+<a id='n68' href='#n68'>68</a>
+<a id='n69' href='#n69'>69</a>
+<a id='n70' href='#n70'>70</a>
+<a id='n71' href='#n71'>71</a>
+<a id='n72' href='#n72'>72</a>
+<a id='n73' href='#n73'>73</a>
+<a id='n74' href='#n74'>74</a>
+<a id='n75' href='#n75'>75</a>
+<a id='n76' href='#n76'>76</a>
+<a id='n77' href='#n77'>77</a>
+<a id='n78' href='#n78'>78</a>
+<a id='n79' href='#n79'>79</a>
+<a id='n80' href='#n80'>80</a>
+<a id='n81' href='#n81'>81</a>
+<a id='n82' href='#n82'>82</a>
+<a id='n83' href='#n83'>83</a>
+<a id='n84' href='#n84'>84</a>
+<a id='n85' href='#n85'>85</a>
+<a id='n86' href='#n86'>86</a>
+<a id='n87' href='#n87'>87</a>
+<a id='n88' href='#n88'>88</a>
+<a id='n89' href='#n89'>89</a>
+<a id='n90' href='#n90'>90</a>
+<a id='n91' href='#n91'>91</a>
+<a id='n92' href='#n92'>92</a>
+<a id='n93' href='#n93'>93</a>
+<a id='n94' href='#n94'>94</a>
+<a id='n95' href='#n95'>95</a>
+<a id='n96' href='#n96'>96</a>
+<a id='n97' href='#n97'>97</a>
+<a id='n98' href='#n98'>98</a>
+<a id='n99' href='#n99'>99</a>
+<a id='n100' href='#n100'>100</a>
+<a id='n101' href='#n101'>101</a>
+<a id='n102' href='#n102'>102</a>
+<a id='n103' href='#n103'>103</a>
+<a id='n104' href='#n104'>104</a>
+<a id='n105' href='#n105'>105</a>
+<a id='n106' href='#n106'>106</a>
+<a id='n107' href='#n107'>107</a>
+<a id='n108' href='#n108'>108</a>
+<a id='n109' href='#n109'>109</a>
+<a id='n110' href='#n110'>110</a>
+<a id='n111' href='#n111'>111</a>
+<a id='n112' href='#n112'>112</a>
+<a id='n113' href='#n113'>113</a>
+<a id='n114' href='#n114'>114</a>
+<a id='n115' href='#n115'>115</a>
+<a id='n116' href='#n116'>116</a>
+<a id='n117' href='#n117'>117</a>
+<a id='n118' href='#n118'>118</a>
+<a id='n119' href='#n119'>119</a>
+<a id='n120' href='#n120'>120</a>
+<a id='n121' href='#n121'>121</a>
+<a id='n122' href='#n122'>122</a>
+<a id='n123' href='#n123'>123</a>
+<a id='n124' href='#n124'>124</a>
+<a id='n125' href='#n125'>125</a>
+<a id='n126' href='#n126'>126</a>
+<a id='n127' href='#n127'>127</a>
+<a id='n128' href='#n128'>128</a>
+<a id='n129' href='#n129'>129</a>
+<a id='n130' href='#n130'>130</a>
+<a id='n131' href='#n131'>131</a>
+<a id='n132' href='#n132'>132</a>
+<a id='n133' href='#n133'>133</a>
+<a id='n134' href='#n134'>134</a>
+<a id='n135' href='#n135'>135</a>
+<a id='n136' href='#n136'>136</a>
+<a id='n137' href='#n137'>137</a>
+<a id='n138' href='#n138'>138</a>
+<a id='n139' href='#n139'>139</a>
+<a id='n140' href='#n140'>140</a>
+<a id='n141' href='#n141'>141</a>
+<a id='n142' href='#n142'>142</a>
+<a id='n143' href='#n143'>143</a>
+<a id='n144' href='#n144'>144</a>
+<a id='n145' href='#n145'>145</a>
+<a id='n146' href='#n146'>146</a>
+<a id='n147' href='#n147'>147</a>
+<a id='n148' href='#n148'>148</a>
+<a id='n149' href='#n149'>149</a>
+<a id='n150' href='#n150'>150</a>
+<a id='n151' href='#n151'>151</a>
+<a id='n152' href='#n152'>152</a>
+<a id='n153' href='#n153'>153</a>
+<a id='n154' href='#n154'>154</a>
+<a id='n155' href='#n155'>155</a>
+<a id='n156' href='#n156'>156</a>
+<a id='n157' href='#n157'>157</a>
+<a id='n158' href='#n158'>158</a>
+<a id='n159' href='#n159'>159</a>
+<a id='n160' href='#n160'>160</a>
+<a id='n161' href='#n161'>161</a>
+<a id='n162' href='#n162'>162</a>
+<a id='n163' href='#n163'>163</a>
+<a id='n164' href='#n164'>164</a>
+<a id='n165' href='#n165'>165</a>
+<a id='n166' href='#n166'>166</a>
+<a id='n167' href='#n167'>167</a>
+<a id='n168' href='#n168'>168</a>
+<a id='n169' href='#n169'>169</a>
+<a id='n170' href='#n170'>170</a>
+<a id='n171' href='#n171'>171</a>
+<a id='n172' href='#n172'>172</a>
+<a id='n173' href='#n173'>173</a>
+<a id='n174' href='#n174'>174</a>
+<a id='n175' href='#n175'>175</a>
+<a id='n176' href='#n176'>176</a>
+<a id='n177' href='#n177'>177</a>
+<a id='n178' href='#n178'>178</a>
+<a id='n179' href='#n179'>179</a>
+<a id='n180' href='#n180'>180</a>
+<a id='n181' href='#n181'>181</a>
+<a id='n182' href='#n182'>182</a>
+<a id='n183' href='#n183'>183</a>
+<a id='n184' href='#n184'>184</a>
+<a id='n185' href='#n185'>185</a>
+<a id='n186' href='#n186'>186</a>
+<a id='n187' href='#n187'>187</a>
+<a id='n188' href='#n188'>188</a>
+<a id='n189' href='#n189'>189</a>
+<a id='n190' href='#n190'>190</a>
+<a id='n191' href='#n191'>191</a>
+<a id='n192' href='#n192'>192</a>
+<a id='n193' href='#n193'>193</a>
+<a id='n194' href='#n194'>194</a>
+<a id='n195' href='#n195'>195</a>
+<a id='n196' href='#n196'>196</a>
+<a id='n197' href='#n197'>197</a>
+<a id='n198' href='#n198'>198</a>
+<a id='n199' href='#n199'>199</a>
+<a id='n200' href='#n200'>200</a>
+<a id='n201' href='#n201'>201</a>
+<a id='n202' href='#n202'>202</a>
+<a id='n203' href='#n203'>203</a>
+<a id='n204' href='#n204'>204</a>
+<a id='n205' href='#n205'>205</a>
+<a id='n206' href='#n206'>206</a>
+<a id='n207' href='#n207'>207</a>
+<a id='n208' href='#n208'>208</a>
+<a id='n209' href='#n209'>209</a>
+<a id='n210' href='#n210'>210</a>
+<a id='n211' href='#n211'>211</a>
+<a id='n212' href='#n212'>212</a>
+<a id='n213' href='#n213'>213</a>
+<a id='n214' href='#n214'>214</a>
+<a id='n215' href='#n215'>215</a>
+<a id='n216' href='#n216'>216</a>
+<a id='n217' href='#n217'>217</a>
+<a id='n218' href='#n218'>218</a>
+<a id='n219' href='#n219'>219</a>
+<a id='n220' href='#n220'>220</a>
+<a id='n221' href='#n221'>221</a>
+<a id='n222' href='#n222'>222</a>
+<a id='n223' href='#n223'>223</a>
+<a id='n224' href='#n224'>224</a>
+<a id='n225' href='#n225'>225</a>
+<a id='n226' href='#n226'>226</a>
+<a id='n227' href='#n227'>227</a>
+<a id='n228' href='#n228'>228</a>
+<a id='n229' href='#n229'>229</a>
+<a id='n230' href='#n230'>230</a>
+<a id='n231' href='#n231'>231</a>
+<a id='n232' href='#n232'>232</a>
+<a id='n233' href='#n233'>233</a>
+<a id='n234' href='#n234'>234</a>
+<a id='n235' href='#n235'>235</a>
+<a id='n236' href='#n236'>236</a>
+<a id='n237' href='#n237'>237</a>
+<a id='n238' href='#n238'>238</a>
+<a id='n239' href='#n239'>239</a>
+<a id='n240' href='#n240'>240</a>
+<a id='n241' href='#n241'>241</a>
+<a id='n242' href='#n242'>242</a>
+<a id='n243' href='#n243'>243</a>
+<a id='n244' href='#n244'>244</a>
+<a id='n245' href='#n245'>245</a>
+<a id='n246' href='#n246'>246</a>
+<a id='n247' href='#n247'>247</a>
+<a id='n248' href='#n248'>248</a>
+<a id='n249' href='#n249'>249</a>
+<a id='n250' href='#n250'>250</a>
+<a id='n251' href='#n251'>251</a>
+<a id='n252' href='#n252'>252</a>
+<a id='n253' href='#n253'>253</a>
+<a id='n254' href='#n254'>254</a>
+<a id='n255' href='#n255'>255</a>
+<a id='n256' href='#n256'>256</a>
+<a id='n257' href='#n257'>257</a>
+<a id='n258' href='#n258'>258</a>
+<a id='n259' href='#n259'>259</a>
+<a id='n260' href='#n260'>260</a>
+<a id='n261' href='#n261'>261</a>
+<a id='n262' href='#n262'>262</a>
+<a id='n263' href='#n263'>263</a>
+<a id='n264' href='#n264'>264</a>
+<a id='n265' href='#n265'>265</a>
+<a id='n266' href='#n266'>266</a>
+<a id='n267' href='#n267'>267</a>
+<a id='n268' href='#n268'>268</a>
+<a id='n269' href='#n269'>269</a>
+<a id='n270' href='#n270'>270</a>
+<a id='n271' href='#n271'>271</a>
+<a id='n272' href='#n272'>272</a>
+<a id='n273' href='#n273'>273</a>
+<a id='n274' href='#n274'>274</a>
+<a id='n275' href='#n275'>275</a>
+<a id='n276' href='#n276'>276</a>
+<a id='n277' href='#n277'>277</a>
+<a id='n278' href='#n278'>278</a>
+<a id='n279' href='#n279'>279</a>
+<a id='n280' href='#n280'>280</a>
+<a id='n281' href='#n281'>281</a>
+<a id='n282' href='#n282'>282</a>
+<a id='n283' href='#n283'>283</a>
+<a id='n284' href='#n284'>284</a>
+<a id='n285' href='#n285'>285</a>
+<a id='n286' href='#n286'>286</a>
+<a id='n287' href='#n287'>287</a>
+<a id='n288' href='#n288'>288</a>
+<a id='n289' href='#n289'>289</a>
+<a id='n290' href='#n290'>290</a>
+<a id='n291' href='#n291'>291</a>
+<a id='n292' href='#n292'>292</a>
+<a id='n293' href='#n293'>293</a>
+<a id='n294' href='#n294'>294</a>
+<a id='n295' href='#n295'>295</a>
+<a id='n296' href='#n296'>296</a>
+<a id='n297' href='#n297'>297</a>
+<a id='n298' href='#n298'>298</a>
+<a id='n299' href='#n299'>299</a>
+<a id='n300' href='#n300'>300</a>
+<a id='n301' href='#n301'>301</a>
+<a id='n302' href='#n302'>302</a>
+<a id='n303' href='#n303'>303</a>
+<a id='n304' href='#n304'>304</a>
+<a id='n305' href='#n305'>305</a>
+<a id='n306' href='#n306'>306</a>
+<a id='n307' href='#n307'>307</a>
+<a id='n308' href='#n308'>308</a>
+<a id='n309' href='#n309'>309</a>
+<a id='n310' href='#n310'>310</a>
+<a id='n311' href='#n311'>311</a>
+<a id='n312' href='#n312'>312</a>
+<a id='n313' href='#n313'>313</a>
+<a id='n314' href='#n314'>314</a>
+<a id='n315' href='#n315'>315</a>
+<a id='n316' href='#n316'>316</a>
+<a id='n317' href='#n317'>317</a>
+<a id='n318' href='#n318'>318</a>
+<a id='n319' href='#n319'>319</a>
+<a id='n320' href='#n320'>320</a>
+<a id='n321' href='#n321'>321</a>
+<a id='n322' href='#n322'>322</a>
+<a id='n323' href='#n323'>323</a>
+<a id='n324' href='#n324'>324</a>
+<a id='n325' href='#n325'>325</a>
+<a id='n326' href='#n326'>326</a>
+<a id='n327' href='#n327'>327</a>
+<a id='n328' href='#n328'>328</a>
+<a id='n329' href='#n329'>329</a>
+<a id='n330' href='#n330'>330</a>
+<a id='n331' href='#n331'>331</a>
+<a id='n332' href='#n332'>332</a>
+<a id='n333' href='#n333'>333</a>
+<a id='n334' href='#n334'>334</a>
+<a id='n335' href='#n335'>335</a>
+<a id='n336' href='#n336'>336</a>
+<a id='n337' href='#n337'>337</a>
+<a id='n338' href='#n338'>338</a>
+<a id='n339' href='#n339'>339</a>
+<a id='n340' href='#n340'>340</a>
+<a id='n341' href='#n341'>341</a>
+<a id='n342' href='#n342'>342</a>
+<a id='n343' href='#n343'>343</a>
+<a id='n344' href='#n344'>344</a>
+<a id='n345' href='#n345'>345</a>
+<a id='n346' href='#n346'>346</a>
+<a id='n347' href='#n347'>347</a>
+<a id='n348' href='#n348'>348</a>
+<a id='n349' href='#n349'>349</a>
+<a id='n350' href='#n350'>350</a>
+<a id='n351' href='#n351'>351</a>
+<a id='n352' href='#n352'>352</a>
+<a id='n353' href='#n353'>353</a>
+<a id='n354' href='#n354'>354</a>
+<a id='n355' href='#n355'>355</a>
+<a id='n356' href='#n356'>356</a>
+<a id='n357' href='#n357'>357</a>
+<a id='n358' href='#n358'>358</a>
+<a id='n359' href='#n359'>359</a>
+<a id='n360' href='#n360'>360</a>
+<a id='n361' href='#n361'>361</a>
+<a id='n362' href='#n362'>362</a>
+<a id='n363' href='#n363'>363</a>
+<a id='n364' href='#n364'>364</a>
+<a id='n365' href='#n365'>365</a>
+<a id='n366' href='#n366'>366</a>
+<a id='n367' href='#n367'>367</a>
+<a id='n368' href='#n368'>368</a>
+<a id='n369' href='#n369'>369</a>
+<a id='n370' href='#n370'>370</a>
+<a id='n371' href='#n371'>371</a>
+<a id='n372' href='#n372'>372</a>
+<a id='n373' href='#n373'>373</a>
+<a id='n374' href='#n374'>374</a>
+<a id='n375' href='#n375'>375</a>
+<a id='n376' href='#n376'>376</a>
+<a id='n377' href='#n377'>377</a>
+<a id='n378' href='#n378'>378</a>
+<a id='n379' href='#n379'>379</a>
+<a id='n380' href='#n380'>380</a>
+<a id='n381' href='#n381'>381</a>
+<a id='n382' href='#n382'>382</a>
+<a id='n383' href='#n383'>383</a>
+<a id='n384' href='#n384'>384</a>
+<a id='n385' href='#n385'>385</a>
+<a id='n386' href='#n386'>386</a>
+<a id='n387' href='#n387'>387</a>
+<a id='n388' href='#n388'>388</a>
+<a id='n389' href='#n389'>389</a>
+<a id='n390' href='#n390'>390</a>
+<a id='n391' href='#n391'>391</a>
+<a id='n392' href='#n392'>392</a>
+<a id='n393' href='#n393'>393</a>
+<a id='n394' href='#n394'>394</a>
+<a id='n395' href='#n395'>395</a>
+<a id='n396' href='#n396'>396</a>
+<a id='n397' href='#n397'>397</a>
+<a id='n398' href='#n398'>398</a>
+<a id='n399' href='#n399'>399</a>
+<a id='n400' href='#n400'>400</a>
+<a id='n401' href='#n401'>401</a>
+<a id='n402' href='#n402'>402</a>
+<a id='n403' href='#n403'>403</a>
+<a id='n404' href='#n404'>404</a>
+<a id='n405' href='#n405'>405</a>
+<a id='n406' href='#n406'>406</a>
+<a id='n407' href='#n407'>407</a>
+<a id='n408' href='#n408'>408</a>
+<a id='n409' href='#n409'>409</a>
+<a id='n410' href='#n410'>410</a>
+<a id='n411' href='#n411'>411</a>
+<a id='n412' href='#n412'>412</a>
+<a id='n413' href='#n413'>413</a>
+<a id='n414' href='#n414'>414</a>
+<a id='n415' href='#n415'>415</a>
+<a id='n416' href='#n416'>416</a>
+<a id='n417' href='#n417'>417</a>
+<a id='n418' href='#n418'>418</a>
+<a id='n419' href='#n419'>419</a>
+<a id='n420' href='#n420'>420</a>
+<a id='n421' href='#n421'>421</a>
+<a id='n422' href='#n422'>422</a>
+<a id='n423' href='#n423'>423</a>
+<a id='n424' href='#n424'>424</a>
+<a id='n425' href='#n425'>425</a>
+<a id='n426' href='#n426'>426</a>
+<a id='n427' href='#n427'>427</a>
+<a id='n428' href='#n428'>428</a>
+<a id='n429' href='#n429'>429</a>
+<a id='n430' href='#n430'>430</a>
+<a id='n431' href='#n431'>431</a>
+<a id='n432' href='#n432'>432</a>
+<a id='n433' href='#n433'>433</a>
+<a id='n434' href='#n434'>434</a>
+<a id='n435' href='#n435'>435</a>
+<a id='n436' href='#n436'>436</a>
+<a id='n437' href='#n437'>437</a>
+<a id='n438' href='#n438'>438</a>
+<a id='n439' href='#n439'>439</a>
+<a id='n440' href='#n440'>440</a>
+<a id='n441' href='#n441'>441</a>
+<a id='n442' href='#n442'>442</a>
+<a id='n443' href='#n443'>443</a>
+<a id='n444' href='#n444'>444</a>
+<a id='n445' href='#n445'>445</a>
+<a id='n446' href='#n446'>446</a>
+<a id='n447' href='#n447'>447</a>
+<a id='n448' href='#n448'>448</a>
+<a id='n449' href='#n449'>449</a>
+<a id='n450' href='#n450'>450</a>
+<a id='n451' href='#n451'>451</a>
+<a id='n452' href='#n452'>452</a>
+<a id='n453' href='#n453'>453</a>
+<a id='n454' href='#n454'>454</a>
+<a id='n455' href='#n455'>455</a>
+<a id='n456' href='#n456'>456</a>
+<a id='n457' href='#n457'>457</a>
+<a id='n458' href='#n458'>458</a>
+<a id='n459' href='#n459'>459</a>
+<a id='n460' href='#n460'>460</a>
+<a id='n461' href='#n461'>461</a>
+<a id='n462' href='#n462'>462</a>
+<a id='n463' href='#n463'>463</a>
+<a id='n464' href='#n464'>464</a>
+<a id='n465' href='#n465'>465</a>
+<a id='n466' href='#n466'>466</a>
+<a id='n467' href='#n467'>467</a>
+<a id='n468' href='#n468'>468</a>
+<a id='n469' href='#n469'>469</a>
+<a id='n470' href='#n470'>470</a>
+<a id='n471' href='#n471'>471</a>
+<a id='n472' href='#n472'>472</a>
+<a id='n473' href='#n473'>473</a>
+<a id='n474' href='#n474'>474</a>
+<a id='n475' href='#n475'>475</a>
+<a id='n476' href='#n476'>476</a>
+<a id='n477' href='#n477'>477</a>
+<a id='n478' href='#n478'>478</a>
+<a id='n479' href='#n479'>479</a>
+<a id='n480' href='#n480'>480</a>
+<a id='n481' href='#n481'>481</a>
+<a id='n482' href='#n482'>482</a>
+<a id='n483' href='#n483'>483</a>
+<a id='n484' href='#n484'>484</a>
+<a id='n485' href='#n485'>485</a>
+<a id='n486' href='#n486'>486</a>
+<a id='n487' href='#n487'>487</a>
+<a id='n488' href='#n488'>488</a>
+<a id='n489' href='#n489'>489</a>
+<a id='n490' href='#n490'>490</a>
+<a id='n491' href='#n491'>491</a>
+<a id='n492' href='#n492'>492</a>
+<a id='n493' href='#n493'>493</a>
+<a id='n494' href='#n494'>494</a>
+<a id='n495' href='#n495'>495</a>
+<a id='n496' href='#n496'>496</a>
+<a id='n497' href='#n497'>497</a>
+<a id='n498' href='#n498'>498</a>
+<a id='n499' href='#n499'>499</a>
+<a id='n500' href='#n500'>500</a>
+<a id='n501' href='#n501'>501</a>
+<a id='n502' href='#n502'>502</a>
+<a id='n503' href='#n503'>503</a>
+<a id='n504' href='#n504'>504</a>
+<a id='n505' href='#n505'>505</a>
+<a id='n506' href='#n506'>506</a>
+<a id='n507' href='#n507'>507</a>
+<a id='n508' href='#n508'>508</a>
+<a id='n509' href='#n509'>509</a>
+<a id='n510' href='#n510'>510</a>
+<a id='n511' href='#n511'>511</a>
+<a id='n512' href='#n512'>512</a>
+<a id='n513' href='#n513'>513</a>
+<a id='n514' href='#n514'>514</a>
+<a id='n515' href='#n515'>515</a>
+<a id='n516' href='#n516'>516</a>
+<a id='n517' href='#n517'>517</a>
+<a id='n518' href='#n518'>518</a>
+<a id='n519' href='#n519'>519</a>
+<a id='n520' href='#n520'>520</a>
+<a id='n521' href='#n521'>521</a>
+<a id='n522' href='#n522'>522</a>
+<a id='n523' href='#n523'>523</a>
+<a id='n524' href='#n524'>524</a>
+<a id='n525' href='#n525'>525</a>
+<a id='n526' href='#n526'>526</a>
+<a id='n527' href='#n527'>527</a>
+<a id='n528' href='#n528'>528</a>
+<a id='n529' href='#n529'>529</a>
+<a id='n530' href='#n530'>530</a>
+<a id='n531' href='#n531'>531</a>
+<a id='n532' href='#n532'>532</a>
+<a id='n533' href='#n533'>533</a>
+<a id='n534' href='#n534'>534</a>
+<a id='n535' href='#n535'>535</a>
+<a id='n536' href='#n536'>536</a>
+<a id='n537' href='#n537'>537</a>
+<a id='n538' href='#n538'>538</a>
+<a id='n539' href='#n539'>539</a>
+<a id='n540' href='#n540'>540</a>
+<a id='n541' href='#n541'>541</a>
+<a id='n542' href='#n542'>542</a>
+<a id='n543' href='#n543'>543</a>
+<a id='n544' href='#n544'>544</a>
+<a id='n545' href='#n545'>545</a>
+<a id='n546' href='#n546'>546</a>
+<a id='n547' href='#n547'>547</a>
+<a id='n548' href='#n548'>548</a>
+<a id='n549' href='#n549'>549</a>
+<a id='n550' href='#n550'>550</a>
+<a id='n551' href='#n551'>551</a>
+<a id='n552' href='#n552'>552</a>
+<a id='n553' href='#n553'>553</a>
+<a id='n554' href='#n554'>554</a>
+<a id='n555' href='#n555'>555</a>
+<a id='n556' href='#n556'>556</a>
+<a id='n557' href='#n557'>557</a>
+<a id='n558' href='#n558'>558</a>
+<a id='n559' href='#n559'>559</a>
+<a id='n560' href='#n560'>560</a>
+<a id='n561' href='#n561'>561</a>
+<a id='n562' href='#n562'>562</a>
+<a id='n563' href='#n563'>563</a>
+<a id='n564' href='#n564'>564</a>
+<a id='n565' href='#n565'>565</a>
+<a id='n566' href='#n566'>566</a>
+<a id='n567' href='#n567'>567</a>
+<a id='n568' href='#n568'>568</a>
+<a id='n569' href='#n569'>569</a>
+<a id='n570' href='#n570'>570</a>
+<a id='n571' href='#n571'>571</a>
+<a id='n572' href='#n572'>572</a>
+<a id='n573' href='#n573'>573</a>
+<a id='n574' href='#n574'>574</a>
+<a id='n575' href='#n575'>575</a>
+<a id='n576' href='#n576'>576</a>
+<a id='n577' href='#n577'>577</a>
+<a id='n578' href='#n578'>578</a>
+<a id='n579' href='#n579'>579</a>
+<a id='n580' href='#n580'>580</a>
+<a id='n581' href='#n581'>581</a>
+<a id='n582' href='#n582'>582</a>
+<a id='n583' href='#n583'>583</a>
+<a id='n584' href='#n584'>584</a>
+<a id='n585' href='#n585'>585</a>
+<a id='n586' href='#n586'>586</a>
+<a id='n587' href='#n587'>587</a>
+<a id='n588' href='#n588'>588</a>
+<a id='n589' href='#n589'>589</a>
+<a id='n590' href='#n590'>590</a>
+<a id='n591' href='#n591'>591</a>
+<a id='n592' href='#n592'>592</a>
+<a id='n593' href='#n593'>593</a>
+<a id='n594' href='#n594'>594</a>
+<a id='n595' href='#n595'>595</a>
+<a id='n596' href='#n596'>596</a>
+<a id='n597' href='#n597'>597</a>
+<a id='n598' href='#n598'>598</a>
+<a id='n599' href='#n599'>599</a>
+<a id='n600' href='#n600'>600</a>
+<a id='n601' href='#n601'>601</a>
+<a id='n602' href='#n602'>602</a>
+<a id='n603' href='#n603'>603</a>
+<a id='n604' href='#n604'>604</a>
+<a id='n605' href='#n605'>605</a>
+<a id='n606' href='#n606'>606</a>
+<a id='n607' href='#n607'>607</a>
+<a id='n608' href='#n608'>608</a>
+<a id='n609' href='#n609'>609</a>
+<a id='n610' href='#n610'>610</a>
+<a id='n611' href='#n611'>611</a>
+<a id='n612' href='#n612'>612</a>
+<a id='n613' href='#n613'>613</a>
+<a id='n614' href='#n614'>614</a>
+<a id='n615' href='#n615'>615</a>
+<a id='n616' href='#n616'>616</a>
+<a id='n617' href='#n617'>617</a>
+<a id='n618' href='#n618'>618</a>
+<a id='n619' href='#n619'>619</a>
+<a id='n620' href='#n620'>620</a>
+<a id='n621' href='#n621'>621</a>
+<a id='n622' href='#n622'>622</a>
+<a id='n623' href='#n623'>623</a>
+<a id='n624' href='#n624'>624</a>
+<a id='n625' href='#n625'>625</a>
+<a id='n626' href='#n626'>626</a>
+<a id='n627' href='#n627'>627</a>
+<a id='n628' href='#n628'>628</a>
+<a id='n629' href='#n629'>629</a>
+<a id='n630' href='#n630'>630</a>
+<a id='n631' href='#n631'>631</a>
+<a id='n632' href='#n632'>632</a>
+<a id='n633' href='#n633'>633</a>
+<a id='n634' href='#n634'>634</a>
+<a id='n635' href='#n635'>635</a>
+<a id='n636' href='#n636'>636</a>
+<a id='n637' href='#n637'>637</a>
+<a id='n638' href='#n638'>638</a>
+<a id='n639' href='#n639'>639</a>
+<a id='n640' href='#n640'>640</a>
+<a id='n641' href='#n641'>641</a>
+<a id='n642' href='#n642'>642</a>
+<a id='n643' href='#n643'>643</a>
+<a id='n644' href='#n644'>644</a>
+<a id='n645' href='#n645'>645</a>
+<a id='n646' href='#n646'>646</a>
+<a id='n647' href='#n647'>647</a>
+<a id='n648' href='#n648'>648</a>
+<a id='n649' href='#n649'>649</a>
+<a id='n650' href='#n650'>650</a>
+<a id='n651' href='#n651'>651</a>
+<a id='n652' href='#n652'>652</a>
+<a id='n653' href='#n653'>653</a>
+<a id='n654' href='#n654'>654</a>
+<a id='n655' href='#n655'>655</a>
+<a id='n656' href='#n656'>656</a>
+<a id='n657' href='#n657'>657</a>
+<a id='n658' href='#n658'>658</a>
+<a id='n659' href='#n659'>659</a>
+<a id='n660' href='#n660'>660</a>
+<a id='n661' href='#n661'>661</a>
+<a id='n662' href='#n662'>662</a>
+<a id='n663' href='#n663'>663</a>
+<a id='n664' href='#n664'>664</a>
+<a id='n665' href='#n665'>665</a>
+<a id='n666' href='#n666'>666</a>
+<a id='n667' href='#n667'>667</a>
+<a id='n668' href='#n668'>668</a>
+<a id='n669' href='#n669'>669</a>
+<a id='n670' href='#n670'>670</a>
+<a id='n671' href='#n671'>671</a>
+<a id='n672' href='#n672'>672</a>
+<a id='n673' href='#n673'>673</a>
+<a id='n674' href='#n674'>674</a>
+<a id='n675' href='#n675'>675</a>
+<a id='n676' href='#n676'>676</a>
+<a id='n677' href='#n677'>677</a>
+<a id='n678' href='#n678'>678</a>
+<a id='n679' href='#n679'>679</a>
+<a id='n680' href='#n680'>680</a>
+<a id='n681' href='#n681'>681</a>
+<a id='n682' href='#n682'>682</a>
+<a id='n683' href='#n683'>683</a>
+<a id='n684' href='#n684'>684</a>
+<a id='n685' href='#n685'>685</a>
+<a id='n686' href='#n686'>686</a>
+<a id='n687' href='#n687'>687</a>
+<a id='n688' href='#n688'>688</a>
+<a id='n689' href='#n689'>689</a>
+<a id='n690' href='#n690'>690</a>
+<a id='n691' href='#n691'>691</a>
+<a id='n692' href='#n692'>692</a>
+<a id='n693' href='#n693'>693</a>
+<a id='n694' href='#n694'>694</a>
+<a id='n695' href='#n695'>695</a>
+<a id='n696' href='#n696'>696</a>
+<a id='n697' href='#n697'>697</a>
+<a id='n698' href='#n698'>698</a>
+<a id='n699' href='#n699'>699</a>
+<a id='n700' href='#n700'>700</a>
+<a id='n701' href='#n701'>701</a>
+<a id='n702' href='#n702'>702</a>
+<a id='n703' href='#n703'>703</a>
+<a id='n704' href='#n704'>704</a>
+<a id='n705' href='#n705'>705</a>
+<a id='n706' href='#n706'>706</a>
+<a id='n707' href='#n707'>707</a>
+<a id='n708' href='#n708'>708</a>
+<a id='n709' href='#n709'>709</a>
+<a id='n710' href='#n710'>710</a>
+<a id='n711' href='#n711'>711</a>
+<a id='n712' href='#n712'>712</a>
+<a id='n713' href='#n713'>713</a>
+<a id='n714' href='#n714'>714</a>
+<a id='n715' href='#n715'>715</a>
+<a id='n716' href='#n716'>716</a>
+<a id='n717' href='#n717'>717</a>
+<a id='n718' href='#n718'>718</a>
+<a id='n719' href='#n719'>719</a>
+<a id='n720' href='#n720'>720</a>
+<a id='n721' href='#n721'>721</a>
+<a id='n722' href='#n722'>722</a>
+<a id='n723' href='#n723'>723</a>
+<a id='n724' href='#n724'>724</a>
+<a id='n725' href='#n725'>725</a>
+<a id='n726' href='#n726'>726</a>
+<a id='n727' href='#n727'>727</a>
+<a id='n728' href='#n728'>728</a>
+<a id='n729' href='#n729'>729</a>
+<a id='n730' href='#n730'>730</a>
+<a id='n731' href='#n731'>731</a>
+<a id='n732' href='#n732'>732</a>
+<a id='n733' href='#n733'>733</a>
+<a id='n734' href='#n734'>734</a>
+<a id='n735' href='#n735'>735</a>
+<a id='n736' href='#n736'>736</a>
+<a id='n737' href='#n737'>737</a>
+<a id='n738' href='#n738'>738</a>
+<a id='n739' href='#n739'>739</a>
+<a id='n740' href='#n740'>740</a>
+<a id='n741' href='#n741'>741</a>
+<a id='n742' href='#n742'>742</a>
+<a id='n743' href='#n743'>743</a>
+<a id='n744' href='#n744'>744</a>
+<a id='n745' href='#n745'>745</a>
+<a id='n746' href='#n746'>746</a>
+<a id='n747' href='#n747'>747</a>
+<a id='n748' href='#n748'>748</a>
+<a id='n749' href='#n749'>749</a>
+<a id='n750' href='#n750'>750</a>
+<a id='n751' href='#n751'>751</a>
+<a id='n752' href='#n752'>752</a>
+<a id='n753' href='#n753'>753</a>
+<a id='n754' href='#n754'>754</a>
+<a id='n755' href='#n755'>755</a>
+<a id='n756' href='#n756'>756</a>
+<a id='n757' href='#n757'>757</a>
+<a id='n758' href='#n758'>758</a>
+<a id='n759' href='#n759'>759</a>
+<a id='n760' href='#n760'>760</a>
+<a id='n761' href='#n761'>761</a>
+<a id='n762' href='#n762'>762</a>
+<a id='n763' href='#n763'>763</a>
+<a id='n764' href='#n764'>764</a>
+<a id='n765' href='#n765'>765</a>
+<a id='n766' href='#n766'>766</a>
+<a id='n767' href='#n767'>767</a>
+<a id='n768' href='#n768'>768</a>
+<a id='n769' href='#n769'>769</a>
+<a id='n770' href='#n770'>770</a>
+<a id='n771' href='#n771'>771</a>
+<a id='n772' href='#n772'>772</a>
+<a id='n773' href='#n773'>773</a>
+<a id='n774' href='#n774'>774</a>
+<a id='n775' href='#n775'>775</a>
+<a id='n776' href='#n776'>776</a>
+<a id='n777' href='#n777'>777</a>
+<a id='n778' href='#n778'>778</a>
+<a id='n779' href='#n779'>779</a>
+<a id='n780' href='#n780'>780</a>
+<a id='n781' href='#n781'>781</a>
+<a id='n782' href='#n782'>782</a>
+<a id='n783' href='#n783'>783</a>
+<a id='n784' href='#n784'>784</a>
+<a id='n785' href='#n785'>785</a>
+<a id='n786' href='#n786'>786</a>
+<a id='n787' href='#n787'>787</a>
+<a id='n788' href='#n788'>788</a>
+<a id='n789' href='#n789'>789</a>
+<a id='n790' href='#n790'>790</a>
+<a id='n791' href='#n791'>791</a>
+<a id='n792' href='#n792'>792</a>
+<a id='n793' href='#n793'>793</a>
+<a id='n794' href='#n794'>794</a>
+<a id='n795' href='#n795'>795</a>
+<a id='n796' href='#n796'>796</a>
+<a id='n797' href='#n797'>797</a>
+<a id='n798' href='#n798'>798</a>
+<a id='n799' href='#n799'>799</a>
+<a id='n800' href='#n800'>800</a>
+<a id='n801' href='#n801'>801</a>
+<a id='n802' href='#n802'>802</a>
+<a id='n803' href='#n803'>803</a>
+<a id='n804' href='#n804'>804</a>
+<a id='n805' href='#n805'>805</a>
+<a id='n806' href='#n806'>806</a>
+<a id='n807' href='#n807'>807</a>
+<a id='n808' href='#n808'>808</a>
+<a id='n809' href='#n809'>809</a>
+<a id='n810' href='#n810'>810</a>
+<a id='n811' href='#n811'>811</a>
+<a id='n812' href='#n812'>812</a>
+<a id='n813' href='#n813'>813</a>
+<a id='n814' href='#n814'>814</a>
+<a id='n815' href='#n815'>815</a>
+<a id='n816' href='#n816'>816</a>
+<a id='n817' href='#n817'>817</a>
+<a id='n818' href='#n818'>818</a>
+<a id='n819' href='#n819'>819</a>
+<a id='n820' href='#n820'>820</a>
+<a id='n821' href='#n821'>821</a>
+<a id='n822' href='#n822'>822</a>
+<a id='n823' href='#n823'>823</a>
+<a id='n824' href='#n824'>824</a>
+<a id='n825' href='#n825'>825</a>
+<a id='n826' href='#n826'>826</a>
+<a id='n827' href='#n827'>827</a>
+<a id='n828' href='#n828'>828</a>
+<a id='n829' href='#n829'>829</a>
+<a id='n830' href='#n830'>830</a>
+<a id='n831' href='#n831'>831</a>
+<a id='n832' href='#n832'>832</a>
+<a id='n833' href='#n833'>833</a>
+<a id='n834' href='#n834'>834</a>
+<a id='n835' href='#n835'>835</a>
+<a id='n836' href='#n836'>836</a>
+<a id='n837' href='#n837'>837</a>
+<a id='n838' href='#n838'>838</a>
+<a id='n839' href='#n839'>839</a>
+<a id='n840' href='#n840'>840</a>
+<a id='n841' href='#n841'>841</a>
+<a id='n842' href='#n842'>842</a>
+<a id='n843' href='#n843'>843</a>
+<a id='n844' href='#n844'>844</a>
+<a id='n845' href='#n845'>845</a>
+<a id='n846' href='#n846'>846</a>
+<a id='n847' href='#n847'>847</a>
+<a id='n848' href='#n848'>848</a>
+<a id='n849' href='#n849'>849</a>
+<a id='n850' href='#n850'>850</a>
+<a id='n851' href='#n851'>851</a>
+<a id='n852' href='#n852'>852</a>
+<a id='n853' href='#n853'>853</a>
+<a id='n854' href='#n854'>854</a>
+<a id='n855' href='#n855'>855</a>
+<a id='n856' href='#n856'>856</a>
+<a id='n857' href='#n857'>857</a>
+<a id='n858' href='#n858'>858</a>
+<a id='n859' href='#n859'>859</a>
+<a id='n860' href='#n860'>860</a>
+<a id='n861' href='#n861'>861</a>
+<a id='n862' href='#n862'>862</a>
+<a id='n863' href='#n863'>863</a>
+<a id='n864' href='#n864'>864</a>
+<a id='n865' href='#n865'>865</a>
+<a id='n866' href='#n866'>866</a>
+<a id='n867' href='#n867'>867</a>
+<a id='n868' href='#n868'>868</a>
+<a id='n869' href='#n869'>869</a>
+<a id='n870' href='#n870'>870</a>
+<a id='n871' href='#n871'>871</a>
+<a id='n872' href='#n872'>872</a>
+<a id='n873' href='#n873'>873</a>
+<a id='n874' href='#n874'>874</a>
+<a id='n875' href='#n875'>875</a>
+<a id='n876' href='#n876'>876</a>
+<a id='n877' href='#n877'>877</a>
+<a id='n878' href='#n878'>878</a>
+<a id='n879' href='#n879'>879</a>
+<a id='n880' href='#n880'>880</a>
+<a id='n881' href='#n881'>881</a>
+<a id='n882' href='#n882'>882</a>
+<a id='n883' href='#n883'>883</a>
+<a id='n884' href='#n884'>884</a>
+<a id='n885' href='#n885'>885</a>
+<a id='n886' href='#n886'>886</a>
+<a id='n887' href='#n887'>887</a>
+<a id='n888' href='#n888'>888</a>
+<a id='n889' href='#n889'>889</a>
+<a id='n890' href='#n890'>890</a>
+<a id='n891' href='#n891'>891</a>
+<a id='n892' href='#n892'>892</a>
+<a id='n893' href='#n893'>893</a>
+<a id='n894' href='#n894'>894</a>
+<a id='n895' href='#n895'>895</a>
+<a id='n896' href='#n896'>896</a>
+<a id='n897' href='#n897'>897</a>
+<a id='n898' href='#n898'>898</a>
+<a id='n899' href='#n899'>899</a>
+<a id='n900' href='#n900'>900</a>
+<a id='n901' href='#n901'>901</a>
+<a id='n902' href='#n902'>902</a>
+<a id='n903' href='#n903'>903</a>
+<a id='n904' href='#n904'>904</a>
+<a id='n905' href='#n905'>905</a>
+<a id='n906' href='#n906'>906</a>
+<a id='n907' href='#n907'>907</a>
+<a id='n908' href='#n908'>908</a>
+<a id='n909' href='#n909'>909</a>
+<a id='n910' href='#n910'>910</a>
+<a id='n911' href='#n911'>911</a>
+<a id='n912' href='#n912'>912</a>
+<a id='n913' href='#n913'>913</a>
+<a id='n914' href='#n914'>914</a>
+<a id='n915' href='#n915'>915</a>
+<a id='n916' href='#n916'>916</a>
+<a id='n917' href='#n917'>917</a>
+<a id='n918' href='#n918'>918</a>
+<a id='n919' href='#n919'>919</a>
+<a id='n920' href='#n920'>920</a>
+<a id='n921' href='#n921'>921</a>
+<a id='n922' href='#n922'>922</a>
+<a id='n923' href='#n923'>923</a>
+<a id='n924' href='#n924'>924</a>
+<a id='n925' href='#n925'>925</a>
+<a id='n926' href='#n926'>926</a>
+<a id='n927' href='#n927'>927</a>
+<a id='n928' href='#n928'>928</a>
+<a id='n929' href='#n929'>929</a>
+<a id='n930' href='#n930'>930</a>
+<a id='n931' href='#n931'>931</a>
+<a id='n932' href='#n932'>932</a>
+<a id='n933' href='#n933'>933</a>
+<a id='n934' href='#n934'>934</a>
+<a id='n935' href='#n935'>935</a>
+<a id='n936' href='#n936'>936</a>
+<a id='n937' href='#n937'>937</a>
+<a id='n938' href='#n938'>938</a>
+<a id='n939' href='#n939'>939</a>
+<a id='n940' href='#n940'>940</a>
+<a id='n941' href='#n941'>941</a>
+<a id='n942' href='#n942'>942</a>
+<a id='n943' href='#n943'>943</a>
+<a id='n944' href='#n944'>944</a>
+<a id='n945' href='#n945'>945</a>
+<a id='n946' href='#n946'>946</a>
+<a id='n947' href='#n947'>947</a>
+<a id='n948' href='#n948'>948</a>
+<a id='n949' href='#n949'>949</a>
+<a id='n950' href='#n950'>950</a>
+<a id='n951' href='#n951'>951</a>
+<a id='n952' href='#n952'>952</a>
+<a id='n953' href='#n953'>953</a>
+<a id='n954' href='#n954'>954</a>
+<a id='n955' href='#n955'>955</a>
+<a id='n956' href='#n956'>956</a>
+<a id='n957' href='#n957'>957</a>
+<a id='n958' href='#n958'>958</a>
+<a id='n959' href='#n959'>959</a>
+<a id='n960' href='#n960'>960</a>
+<a id='n961' href='#n961'>961</a>
+<a id='n962' href='#n962'>962</a>
+<a id='n963' href='#n963'>963</a>
+<a id='n964' href='#n964'>964</a>
+<a id='n965' href='#n965'>965</a>
+<a id='n966' href='#n966'>966</a>
+<a id='n967' href='#n967'>967</a>
+<a id='n968' href='#n968'>968</a>
+<a id='n969' href='#n969'>969</a>
+<a id='n970' href='#n970'>970</a>
+<a id='n971' href='#n971'>971</a>
+<a id='n972' href='#n972'>972</a>
+<a id='n973' href='#n973'>973</a>
+<a id='n974' href='#n974'>974</a>
+<a id='n975' href='#n975'>975</a>
+<a id='n976' href='#n976'>976</a>
+<a id='n977' href='#n977'>977</a>
+<a id='n978' href='#n978'>978</a>
+<a id='n979' href='#n979'>979</a>
+<a id='n980' href='#n980'>980</a>
+<a id='n981' href='#n981'>981</a>
+<a id='n982' href='#n982'>982</a>
+<a id='n983' href='#n983'>983</a>
+<a id='n984' href='#n984'>984</a>
+<a id='n985' href='#n985'>985</a>
+<a id='n986' href='#n986'>986</a>
+<a id='n987' href='#n987'>987</a>
+<a id='n988' href='#n988'>988</a>
+<a id='n989' href='#n989'>989</a>
+<a id='n990' href='#n990'>990</a>
+<a id='n991' href='#n991'>991</a>
+<a id='n992' href='#n992'>992</a>
+<a id='n993' href='#n993'>993</a>
+<a id='n994' href='#n994'>994</a>
+<a id='n995' href='#n995'>995</a>
+<a id='n996' href='#n996'>996</a>
+<a id='n997' href='#n997'>997</a>
+<a id='n998' href='#n998'>998</a>
+<a id='n999' href='#n999'>999</a>
+<a id='n1000' href='#n1000'>1000</a>
+<a id='n1001' href='#n1001'>1001</a>
+<a id='n1002' href='#n1002'>1002</a>
+<a id='n1003' href='#n1003'>1003</a>
+<a id='n1004' href='#n1004'>1004</a>
+<a id='n1005' href='#n1005'>1005</a>
+<a id='n1006' href='#n1006'>1006</a>
+<a id='n1007' href='#n1007'>1007</a>
+<a id='n1008' href='#n1008'>1008</a>
+<a id='n1009' href='#n1009'>1009</a>
+<a id='n1010' href='#n1010'>1010</a>
+<a id='n1011' href='#n1011'>1011</a>
+<a id='n1012' href='#n1012'>1012</a>
+<a id='n1013' href='#n1013'>1013</a>
+<a id='n1014' href='#n1014'>1014</a>
+<a id='n1015' href='#n1015'>1015</a>
+<a id='n1016' href='#n1016'>1016</a>
+<a id='n1017' href='#n1017'>1017</a>
+<a id='n1018' href='#n1018'>1018</a>
+<a id='n1019' href='#n1019'>1019</a>
+<a id='n1020' href='#n1020'>1020</a>
+<a id='n1021' href='#n1021'>1021</a>
+<a id='n1022' href='#n1022'>1022</a>
+<a id='n1023' href='#n1023'>1023</a>
+<a id='n1024' href='#n1024'>1024</a>
+<a id='n1025' href='#n1025'>1025</a>
+<a id='n1026' href='#n1026'>1026</a>
+<a id='n1027' href='#n1027'>1027</a>
+<a id='n1028' href='#n1028'>1028</a>
+</pre></td>
+<td class='lines'><pre><code>SET ISO8859-2
+
+TRY ABCDEFGHIJKLMNOPQRSTUVWXYæÆèÈðÐ¾®abcdefghijklmnopqrstuvwxy
+
+SFX A Y 36
+SFX A ati e ati
+SFX A ati i ati
+SFX A ati ao ati
+SFX A ati at ati
+SFX A ati im ati
+SFX A ati i¹ ati
+SFX A ati ala ati
+SFX A ati ale ati
+SFX A ati ali ati
+SFX A ati alo ati
+SFX A ati aæe ati
+SFX A ati aæu ati
+SFX A ati imo ati
+SFX A ati ite ati
+SFX A ati aæe¹ ati
+SFX A ati aæemo ati
+SFX A ati aæete ati
+SFX A sti o sti
+SFX A sti la sti
+SFX A sti le sti
+SFX A sti li sti
+SFX A sti lo sti
+SFX A sti st sti
+SFX A sti dni sti
+SFX A sti dnu sti
+SFX A sti ¹æe sti
+SFX A sti ¹æu sti
+SFX A sti dnem sti
+SFX A sti dne¹ sti
+SFX A sti ¹æe¹ sti
+SFX A sti dnemo sti
+SFX A sti dnete sti
+SFX A sti dnimo sti
+SFX A sti dnite sti
+SFX A sti ¹æemo sti
+SFX A sti ¹æete sti
+
+SFX B Y 60
+SFX B ati a ati
+SFX B ati aj ati
+SFX B ati am ati
+SFX B ati ao ati
+SFX B ati at ati
+SFX B ati a¹ ati
+SFX B ati aju ati
+SFX B ati ala ati
+SFX B ati ale ati
+SFX B ati ali ati
+SFX B ati alo ati
+SFX B ati amo ati
+SFX B ati ate ati
+SFX B ati aæe ati
+SFX B ati aæu ati
+SFX B ati ajmo ati
+SFX B ati ajte ati
+SFX B ati aæe¹ ati
+SFX B ati aæemo ati
+SFX B ati aæete ati
+SFX B sti o sti
+SFX B sti de sti
+SFX B sti di sti
+SFX B sti du sti
+SFX B sti la sti
+SFX B sti le sti
+SFX B sti li sti
+SFX B sti lo sti
+SFX B sti st sti
+SFX B sti dem sti
+SFX B sti de¹ sti
+SFX B sti ¹æe sti
+SFX B sti ¹æu sti
+SFX B sti demo sti
+SFX B sti dete sti
+SFX B sti dimo sti
+SFX B sti dite sti
+SFX B sti ¹æe¹ sti
+SFX B sti ¹æemo sti
+SFX B sti ¹æete sti
+SFX B ijeti io ijeti
+SFX B ijeti ese ijeti
+SFX B ijeti esi ijeti
+SFX B ijeti esu ijeti
+SFX B ijeti esem ijeti
+SFX B ijeti ese¹ ijeti
+SFX B ijeti ijet ijeti
+SFX B ijeti esemo ijeti
+SFX B ijeti esete ijeti
+SFX B ijeti esimo ijeti
+SFX B ijeti esite ijeti
+SFX B ijeti ijela ijeti
+SFX B ijeti ijele ijeti
+SFX B ijeti ijeli ijeti
+SFX B ijeti ijelo ijeti
+SFX B ijeti ijeæe ijeti
+SFX B ijeti ijeæu ijeti
+SFX B ijeti ijeæe¹ ijeti
+SFX B ijeti ijeæemo ijeti
+SFX B ijeti ijeæete ijeti
+
+SFX C Y 208
+SFX C sati ¹e sati
+SFX C sati ¹i sati
+SFX C sati ¹u sati
+SFX C sati sao sati
+SFX C sati sat sati
+SFX C sati ¹em sati
+SFX C sati ¹e¹ sati
+SFX C sati sala sati
+SFX C sati sale sati
+SFX C sati sali sati
+SFX C sati salo sati
+SFX C sati saæe sati
+SFX C sati saæu sati
+SFX C sati ¹emo sati
+SFX C sati ¹ete sati
+SFX C sati ¹imo sati
+SFX C sati ¹ite sati
+SFX C sati saæe¹ sati
+SFX C sati saæemo sati
+SFX C sati saæete sati
+SFX C zati ¾e zati
+SFX C zati ¾i zati
+SFX C zati ¾u zati
+SFX C zati ¾em zati
+SFX C zati ¾e¹ zati
+SFX C zati zao zati
+SFX C zati zat zati
+SFX C zati ¾emo zati
+SFX C zati ¾ete zati
+SFX C zati ¾imo zati
+SFX C zati ¾ite zati
+SFX C zati zala zati
+SFX C zati zale zati
+SFX C zati zali zati
+SFX C zati zalo zati
+SFX C zati zaæe zati
+SFX C zati zaæu zati
+SFX C zati zaæe¹ zati
+SFX C zati zaæemo zati
+SFX C zati zaæete zati
+SFX C cati èe cati
+SFX C cati èi cati
+SFX C cati èu cati
+SFX C cati cao cati
+SFX C cati cat cati
+SFX C cati èem cati
+SFX C cati èe¹ cati
+SFX C cati cala cati
+SFX C cati cale cati
+SFX C cati cali cati
+SFX C cati calo cati
+SFX C cati caæe cati
+SFX C cati caæu cati
+SFX C cati èemo cati
+SFX C cati èete cati
+SFX C cati èimo cati
+SFX C cati èite cati
+SFX C cati caæe¹ cati
+SFX C cati caæemo cati
+SFX C cati caæete cati
+SFX C ovati uj ovati
+SFX C ovati uje ovati
+SFX C ovati uju ovati
+SFX C ovati ovao ovati
+SFX C ovati ovat ovati
+SFX C ovati ujem ovati
+SFX C ovati uje¹ ovati
+SFX C ovati ujmo ovati
+SFX C ovati ujte ovati
+SFX C ovati ovala ovati
+SFX C ovati ovale ovati
+SFX C ovati ovali ovati
+SFX C ovati ovalo ovati
+SFX C ovati ovaæe ovati
+SFX C ovati ovaæu ovati
+SFX C ovati ujemo ovati
+SFX C ovati ujete ovati
+SFX C ovati ovaæe¹ ovati
+SFX C ovati ovaæemo ovati
+SFX C ovati ovaæete ovati
+SFX C irati ira irati
+SFX C irati iraj irati
+SFX C irati iram irati
+SFX C irati irao irati
+SFX C irati irat irati
+SFX C irati ira¹ irati
+SFX C irati iraju irati
+SFX C irati irala irati
+SFX C irati irale irati
+SFX C irati irali irati
+SFX C irati iralo irati
+SFX C irati iramo irati
+SFX C irati irate irati
+SFX C irati iraæe irati
+SFX C irati iraæu irati
+SFX C irati irajmo irati
+SFX C irati irajte irati
+SFX C irati iraæe¹ irati
+SFX C irati iraæemo irati
+SFX C irati iraæete irati
+SFX C jeti e jeti
+SFX C jeti i jeti
+SFX C jeti im jeti
+SFX C jeti io jeti
+SFX C jeti i¹ jeti
+SFX C jeti imo jeti
+SFX C jeti ite jeti
+SFX C jeti jet jeti
+SFX C jeti jela jeti
+SFX C jeti jele jeti
+SFX C jeti jeli jeti
+SFX C jeti jelo jeti
+SFX C jeti jeæe jeti
+SFX C jeti jeæu jeti
+SFX C jeti jeæe¹ jeti
+SFX C jeti jeæemo jeti
+SFX C jeti jeæete jeti
+SFX C sti o sti
+SFX C sti la sti
+SFX C sti le sti
+SFX C sti li sti
+SFX C sti lo sti
+SFX C sti st sti
+SFX C sti te sti
+SFX C sti ti sti
+SFX C sti tu sti
+SFX C sti tem sti
+SFX C sti te¹ sti
+SFX C sti ¹æe sti
+SFX C sti ¹æu sti
+SFX C sti temo sti
+SFX C sti tete sti
+SFX C sti timo sti
+SFX C sti tite sti
+SFX C sti ¹æe¹ sti
+SFX C sti ¹æemo sti
+SFX C sti ¹æete sti
+SFX C ivati uj ivati
+SFX C ivati uje ivati
+SFX C ivati uju ivati
+SFX C ivati ivao ivati
+SFX C ivati ivat ivati
+SFX C ivati ujem ivati
+SFX C ivati uje¹ ivati
+SFX C ivati ujmo ivati
+SFX C ivati ujte ivati
+SFX C ivati ivala ivati
+SFX C ivati ivale ivati
+SFX C ivati ivali ivati
+SFX C ivati ivalo ivati
+SFX C ivati ivaæe ivati
+SFX C ivati ivaæu ivati
+SFX C ivati ujemo ivati
+SFX C ivati ujete ivati
+SFX C ivati ivaæe¹ ivati
+SFX C ivati ivaæemo ivati
+SFX C ivati ivaæete ivati
+SFX C tati æe tati
+SFX C tati æi tati
+SFX C tati æu tati
+SFX C tati tao tati
+SFX C tati tat tati
+SFX C tati æem tati
+SFX C tati æe¹ tati
+SFX C tati tala tati
+SFX C tati tale tati
+SFX C tati tali tati
+SFX C tati talo tati
+SFX C tati taæe tati
+SFX C tati taæu tati
+SFX C tati æemo tati
+SFX C tati æete tati
+SFX C tati æimo tati
+SFX C tati æite tati
+SFX C tati taæe¹ tati
+SFX C tati taæemo tati
+SFX C tati taæete tati
+SFX C em e em
+SFX C em u em
+SFX C em e¹ em
+SFX C em mo em
+SFX C em te em
+SFX C em emo em
+SFX C em ete em
+SFX C o la o
+SFX C o le o
+SFX C o li o
+SFX C o lo o
+SFX C avati ava avati
+SFX C avati avaj avati
+SFX C avati avam avati
+SFX C avati avao avati
+SFX C avati avat avati
+SFX C avati ava¹ avati
+SFX C avati avaju avati
+SFX C avati avala avati
+SFX C avati avale avati
+SFX C avati avali avati
+SFX C avati avalo avati
+SFX C avati avamo avati
+SFX C avati avate avati
+SFX C avati avaæe avati
+SFX C avati avaæu avati
+SFX C avati avajmo avati
+SFX C avati avajte avati
+SFX C avati avaæe¹ avati
+SFX C avati avaæemo avati
+SFX C avati avaæete avati
+
+SFX D Y 24
+SFX D ti j ti
+SFX D ti o ti
+SFX D ti t ti
+SFX D ti je ti
+SFX D ti ju ti
+SFX D ti la ti
+SFX D ti le ti
+SFX D ti li ti
+SFX D ti lo ti
+SFX D ti æe ti
+SFX D ti æu ti
+SFX D ti jem ti
+SFX D ti je¹ ti
+SFX D ti jmo ti
+SFX D ti jte ti
+SFX D ti æe¹ ti
+SFX D ti jemo ti
+SFX D ti jete ti
+SFX D ti æemo ti
+SFX D ti æete ti
+SFX D em e em
+SFX D em e¹ em
+SFX D em emo em
+SFX D em ete em
+
+SFX E Y 20
+SFX E vati j vati
+SFX E vati je vati
+SFX E vati ju vati
+SFX E vati jem vati
+SFX E vati je¹ vati
+SFX E vati jmo vati
+SFX E vati jte vati
+SFX E vati vao vati
+SFX E vati vat vati
+SFX E vati jemo vati
+SFX E vati jete vati
+SFX E vati vala vati
+SFX E vati vale vati
+SFX E vati vali vati
+SFX E vati valo vati
+SFX E vati vaæe vati
+SFX E vati vaæu vati
+SFX E vati vaæe¹ vati
+SFX E vati vaæemo vati
+SFX E vati vaæete vati
+
+SFX F Y 137
+SFX F æi ci æi
+SFX F æi ku æi
+SFX F æi èe æi
+SFX F æi kao æi
+SFX F æi kla æi
+SFX F æi kle æi
+SFX F æi kli æi
+SFX F æi klo æi
+SFX F æi koh æi
+SFX F æi èem æi
+SFX F æi èe¹ æi
+SFX F æi cimo æi
+SFX F æi cite æi
+SFX F æi èemo æi
+SFX F æi èete æi
+SFX F sti se sti
+SFX F sti si sti
+SFX F sti st sti
+SFX F sti su sti
+SFX F sti sao sti
+SFX F sti sem sti
+SFX F sti se¹ sti
+SFX F sti sla sti
+SFX F sti sle sti
+SFX F sti sli sti
+SFX F sti slo sti
+SFX F sti ¹æe sti
+SFX F sti ¹æu sti
+SFX F sti semo sti
+SFX F sti sete sti
+SFX F sti simo sti
+SFX F sti site sti
+SFX F sti ¹æe¹ sti
+SFX F sti ¹æemo sti
+SFX F sti ¹æete sti
+SFX F ati e ati
+SFX F ati i ati
+SFX F ati u ati
+SFX F ati ao ati
+SFX F ati at ati
+SFX F ati em ati
+SFX F ati e¹ ati
+SFX F ati ala ati
+SFX F ati ale ati
+SFX F ati ali ati
+SFX F ati alo ati
+SFX F ati aæe ati
+SFX F ati aæu ati
+SFX F ati emo ati
+SFX F ati ete ati
+SFX F ati imo ati
+SFX F ati ite ati
+SFX F ati aæe¹ ati
+SFX F ati aæemo ati
+SFX F ati aæete ati
+SFX F uti e uti
+SFX F uti i uti
+SFX F uti u uti
+SFX F uti em uti
+SFX F uti e¹ uti
+SFX F uti uo uti
+SFX F uti ut uti
+SFX F uti emo uti
+SFX F uti ete uti
+SFX F uti imo uti
+SFX F uti ite uti
+SFX F uti ula uti
+SFX F uti ule uti
+SFX F uti uli uti
+SFX F uti ulo uti
+SFX F uti uæe uti
+SFX F uti uæu uti
+SFX F uti uæe¹ uti
+SFX F uti uæemo uti
+SFX F uti uæete uti
+SFX F iti e iti
+SFX F iti i iti
+SFX F iti im iti
+SFX F iti io iti
+SFX F iti it iti
+SFX F iti i¹ iti
+SFX F iti ila iti
+SFX F iti ile iti
+SFX F iti ili iti
+SFX F iti ilo iti
+SFX F iti imo iti
+SFX F iti ite iti
+SFX F iti iæe iti
+SFX F iti iæu iti
+SFX F iti iæe¹ iti
+SFX F iti iæemo iti
+SFX F iti iæete iti
+SFX F eti e eti
+SFX F eti i eti
+SFX F eti eo eti
+SFX F eti im eti
+SFX F eti it eti
+SFX F eti i¹ eti
+SFX F eti ela eti
+SFX F eti ele eti
+SFX F eti eli eti
+SFX F eti elo eti
+SFX F eti eæe eti
+SFX F eti eæu eti
+SFX F eti imo eti
+SFX F eti ite eti
+SFX F eti eæe¹ eti
+SFX F eti eæemo eti
+SFX F eti eæete eti
+SFX F em e em
+SFX F em i em
+SFX F em u em
+SFX F em e¹ em
+SFX F em emo em
+SFX F em ete em
+SFX F em imo em
+SFX F em ite em
+SFX F am a am
+SFX F am a¹ am
+SFX F am aju am
+SFX F am amo am
+SFX F am ate am
+SFX F ao la ao
+SFX F ao le ao
+SFX F ao li ao
+SFX F ao lo ao
+SFX F æu æe æu
+SFX F æu æe¹ æu
+SFX F æu æemo æu
+SFX F æu æete æu
+SFX F e u e
+SFX F e e¹ e
+SFX F e emo e
+SFX F e ete e
+SFX F la le la
+SFX F la li la
+SFX F la lo la
+
+SFX G Y 7
+SFX G 0 a .
+SFX G 0 u .
+SFX G 0 om .
+SFX G 0 ova .
+SFX G 0 ove .
+SFX G 0 ovi .
+SFX G 0 ovima .
+
+SFX H Y 3
+SFX H 0 a .
+SFX H 0 u .
+SFX H 0 om .
+
+SFX I Y 3
+SFX I 0 i .
+SFX I 0 ju .
+SFX I 0 ima .
+
+SFX J Y 2
+SFX J 0 i .
+SFX J 0 ima .
+
+SFX K Y 3
+SFX K 0 a .
+SFX K 0 u .
+SFX K 0 em .
+
+SFX L Y 6
+SFX L 0 a .
+SFX L 0 e .
+SFX L 0 i .
+SFX L 0 u .
+SFX L 0 om .
+SFX L 0 ima .
+
+SFX M Y 7
+SFX M 0 a .
+SFX M 0 u .
+SFX M 0 em .
+SFX M 0 eva .
+SFX M 0 eve .
+SFX M 0 evi .
+SFX M 0 evima .
+
+SFX N Y 6
+SFX N 0 a .
+SFX N 0 e .
+SFX N 0 i .
+SFX N 0 u .
+SFX N 0 em .
+SFX N 0 ima .
+
+SFX O Y 4
+SFX O anje anja anje
+SFX O anje anju anje
+SFX O anje anjem anje
+SFX O anje anjima anje
+
+SFX P Y 83
+SFX P bac pca bac
+SFX P bac pce bac
+SFX P bac pci bac
+SFX P bac pcu bac
+SFX P bac baca bac
+SFX P bac pcem bac
+SFX P bac pcima bac
+SFX P ak ci ak
+SFX P ak ka ak
+SFX P ak ke ak
+SFX P ak ku ak
+SFX P ak aka ak
+SFX P ak kom ak
+SFX P ak cima ak
+SFX P t ta t
+SFX P t te t
+SFX P t ti t
+SFX P t tu t
+SFX P t ata t
+SFX P t tom t
+SFX P t tima t
+SFX P e ena e
+SFX P e enu e
+SFX P e enom e
+SFX P e enima e
+SFX P ka ci ka
+SFX P ka ke ka
+SFX P ka ku ka
+SFX P ka kom ka
+SFX P ka kama ka
+SFX P ga ge ga
+SFX P ga gu ga
+SFX P ga zi ga
+SFX P ga gom ga
+SFX P ga gama ga
+SFX P o a o
+SFX P o u o
+SFX P o om o
+SFX P ar ra ar
+SFX P ar re ar
+SFX P ar ri ar
+SFX P ar ru ar
+SFX P ar ara ar
+SFX P ar rom ar
+SFX P ar rima ar
+SFX P lac oca lac
+SFX P lac oce lac
+SFX P lac oci lac
+SFX P lac ocu lac
+SFX P lac laca lac
+SFX P lac ocem lac
+SFX P lac ocima lac
+SFX P am ma am
+SFX P am mu am
+SFX P am mom am
+SFX P am mova am
+SFX P am move am
+SFX P am movi am
+SFX P am movima am
+SFX P i a i
+SFX P i e i
+SFX P i ima i
+SFX P acija acije acija
+SFX P acija aciji acija
+SFX P acija aciju acija
+SFX P acija acijom acija
+SFX P acija acijama acija
+SFX P ica ice ica
+SFX P ica ici ica
+SFX P ica icu ica
+SFX P ica icom ica
+SFX P ica icama ica
+SFX P ina ine ina
+SFX P ina ini ina
+SFX P ina inu ina
+SFX P ina inom ina
+SFX P ina inama ina
+SFX P nik nici nik
+SFX P nik nika nik
+SFX P nik nike nik
+SFX P nik niku nik
+SFX P nik nikom nik
+SFX P nik nicima nik
+
+SFX Q Y 2
+SFX Q e a e
+SFX Q e ama e
+
+SFX R Y 55
+SFX R e ad e
+SFX R e adi e
+SFX R e eta e
+SFX R e etu e
+SFX R e etom e
+SFX R a e a
+SFX R a i a
+SFX R a u a
+SFX R a om a
+SFX R st sti st
+SFX R st ¹æu st
+SFX R st stima st
+SFX R ar ra ar
+SFX R ar ru ar
+SFX R ar rom ar
+SFX R tak ci tak
+SFX R tak tka tak
+SFX R tak tke tak
+SFX R tak tku tak
+SFX R tak cima tak
+SFX R tak taka tak
+SFX R tak tkom tak
+SFX R dak ci dak
+SFX R dak tka dak
+SFX R dak tke dak
+SFX R dak tku dak
+SFX R dak cima dak
+SFX R dak daka dak
+SFX R dak tkom dak
+SFX R at ta at
+SFX R at te at
+SFX R at ti at
+SFX R at tu at
+SFX R at ata at
+SFX R at tom at
+SFX R at tima at
+SFX R o a o
+SFX R o eta o
+SFX R o etu o
+SFX R o ima o
+SFX R o etom o
+SFX R zak sci zak
+SFX R zak ska zak
+SFX R zak ske zak
+SFX R zak sku zak
+SFX R zak skom zak
+SFX R zak zaka zak
+SFX R zak scima zak
+SFX R ¾ak ¹ci ¾ak
+SFX R ¾ak ¹ka ¾ak
+SFX R ¾ak ¹ke ¾ak
+SFX R ¾ak ¹ku ¾ak
+SFX R ¾ak ¾aka ¾ak
+SFX R ¾ak ¹kom ¾ak
+SFX R ¾ak ¹cima ¾ak
+
+SFX S Y 19
+SFX S e a e
+SFX S e u e
+SFX S e em e
+SFX S ak ka ak
+SFX S ak ku ak
+SFX S ak kom ak
+SFX S ija ije ija
+SFX S ija iji ija
+SFX S ija iju ija
+SFX S ija ijom ija
+SFX S ija ijama ija
+SFX S nost nosti nost
+SFX S nost no¹æu nost
+SFX S nost nostima nost
+SFX S stvo stva stvo
+SFX S stvo stvu stvo
+SFX S stvo stava stvo
+SFX S stvo stvom stvo
+SFX S stvo stvima stvo
+
+SFX T Y 71
+SFX T o a o
+SFX T o u o
+SFX T o om o
+SFX T o ima o
+SFX T e a e
+SFX T e u e
+SFX T e em e
+SFX T e ima e
+SFX T in a in
+SFX T in e in
+SFX T in i in
+SFX T in ima in
+SFX T in ina in
+SFX T in inu in
+SFX T in inom in
+SFX T ac ca ac
+SFX T ac ce ac
+SFX T ac ci ac
+SFX T ac cu ac
+SFX T ac aca ac
+SFX T ac cem ac
+SFX T ac cima ac
+SFX T k ci k
+SFX T k ka k
+SFX T k ke k
+SFX T k ku k
+SFX T k kom k
+SFX T k cima k
+SFX T t ta t
+SFX T t te t
+SFX T t ti t
+SFX T t tu t
+SFX T t tom t
+SFX T t tima t
+SFX T ar ra ar
+SFX T ar ru ar
+SFX T ar rom ar
+SFX T ar rova ar
+SFX T ar rove ar
+SFX T ar rovi ar
+SFX T ar rovima ar
+SFX T i a i
+SFX T i e i
+SFX T i o i
+SFX T i u i
+SFX T i om i
+SFX T i ima i
+SFX T a e a
+SFX T a i a
+SFX T a u a
+SFX T a om a
+SFX T a ama a
+SFX T am ma am
+SFX T am me am
+SFX T am mi am
+SFX T am mu am
+SFX T am ama am
+SFX T am mom am
+SFX T am mima am
+SFX T g ga g
+SFX T g ge g
+SFX T g gu g
+SFX T g zi g
+SFX T g gom g
+SFX T g zima g
+SFX T iæ iæa iæ
+SFX T iæ iæe iæ
+SFX T iæ iæi iæ
+SFX T iæ iæu iæ
+SFX T iæ iæem iæ
+SFX T iæ iæima iæ
+
+SFX U Y 8
+SFX U vanje vanja vanje
+SFX U vanje vanju vanje
+SFX U vanje vanjem vanje
+SFX U vanje vanjima vanje
+SFX U enje enja enje
+SFX U enje enju enje
+SFX U enje enjem enje
+SFX U enje enjima enje
+
+SFX V Y 13
+SFX V 0 a .
+SFX V 0 e .
+SFX V 0 i .
+SFX V 0 o .
+SFX V 0 u .
+SFX V 0 ih .
+SFX V 0 im .
+SFX V 0 og .
+SFX V 0 oj .
+SFX V 0 om .
+SFX V 0 ima .
+SFX V 0 oga .
+SFX V 0 ome .
+
+SFX W Y 12
+SFX W 0 a .
+SFX W 0 e .
+SFX W 0 i .
+SFX W 0 u .
+SFX W 0 eg .
+SFX W 0 em .
+SFX W 0 ih .
+SFX W 0 im .
+SFX W 0 oj .
+SFX W 0 om .
+SFX W 0 ega .
+SFX W 0 ima .
+
+SFX X Y 88
+SFX X i a i
+SFX X i e i
+SFX X i o i
+SFX X i u i
+SFX X i ih i
+SFX X i im i
+SFX X i og i
+SFX X i oj i
+SFX X i om i
+SFX X i ima i
+SFX X i oga i
+SFX X i ome i
+SFX X j ja j
+SFX X j je j
+SFX X j ji j
+SFX X j ju j
+SFX X j jeg j
+SFX X j jem j
+SFX X j jih j
+SFX X j jim j
+SFX X j joj j
+SFX X j jom j
+SFX X j jega j
+SFX X j jima j
+SFX X æ æa æ
+SFX X æ æe æ
+SFX X æ æi æ
+SFX X æ æu æ
+SFX X æ æeg æ
+SFX X æ æem æ
+SFX X æ æih æ
+SFX X æ æim æ
+SFX X æ æoj æ
+SFX X æ æom æ
+SFX X æ æega æ
+SFX X æ æima æ
+SFX X an na an
+SFX X an ne an
+SFX X an ni an
+SFX X an no an
+SFX X an nu an
+SFX X an nih an
+SFX X an nim an
+SFX X an nog an
+SFX X an noj an
+SFX X an nom an
+SFX X an nima an
+SFX X an noga an
+SFX X an nome an
+SFX X ov ova ov
+SFX X ov ove ov
+SFX X ov ovi ov
+SFX X ov ovo ov
+SFX X ov ovu ov
+SFX X ov ovih ov
+SFX X ov ovim ov
+SFX X ov ovog ov
+SFX X ov ovoj ov
+SFX X ov ovom ov
+SFX X ov ovima ov
+SFX X ov ovoga ov
+SFX X ov ovome ov
+SFX X o la o
+SFX X o le o
+SFX X o li o
+SFX X o lo o
+SFX X o lu o
+SFX X o lih o
+SFX X o lim o
+SFX X o log o
+SFX X o loj o
+SFX X o lom o
+SFX X o lima o
+SFX X o loga o
+SFX X o lome o
+SFX X en ena en
+SFX X en ene en
+SFX X en eni en
+SFX X en eno en
+SFX X en enu en
+SFX X en enih en
+SFX X en enim en
+SFX X en enog en
+SFX X en enoj en
+SFX X en enom en
+SFX X en enima en
+SFX X en enoga en
+SFX X en enome en
+
+SFX Y Y 24
+SFX Y i a i
+SFX Y i e i
+SFX Y i u i
+SFX Y i eg i
+SFX Y i em i
+SFX Y i ih i
+SFX Y i im i
+SFX Y i oj i
+SFX Y i om i
+SFX Y i ega i
+SFX Y i ima i
+SFX Y tan na tan
+SFX Y tan ne tan
+SFX Y tan ni tan
+SFX Y tan no tan
+SFX Y tan nu tan
+SFX Y tan nih tan
+SFX Y tan nim tan
+SFX Y tan nog tan
+SFX Y tan noj tan
+SFX Y tan nom tan
+SFX Y tan nima tan
+SFX Y tan noga tan
+SFX Y tan nome tan
+
+SFX Z Y 71
+SFX Z ji ja ji
+SFX Z ji je ji
+SFX Z ji ju ji
+SFX Z ji jeg ji
+SFX Z ji jem ji
+SFX Z ji jih ji
+SFX Z ji jim ji
+SFX Z ji joj ji
+SFX Z ji jom ji
+SFX Z ji jega ji
+SFX Z ji jima ji
+SFX Z æi æa æi
+SFX Z æi æe æi
+SFX Z æi æu æi
+SFX Z æi æeg æi
+SFX Z æi æem æi
+SFX Z æi æih æi
+SFX Z æi æim æi
+SFX Z æi æoj æi
+SFX Z æi æom æi
+SFX Z æi æega æi
+SFX Z æi æima æi
+SFX Z ski ska ski
+SFX Z ski ske ski
+SFX Z ski sko ski
+SFX Z ski sku ski
+SFX Z ski skih ski
+SFX Z ski skim ski
+SFX Z ski skog ski
+SFX Z ski skoj ski
+SFX Z ski skom ski
+SFX Z ski skima ski
+SFX Z ski skoga ski
+SFX Z ski skome ski
+SFX Z an ana an
+SFX Z an ane an
+SFX Z an ani an
+SFX Z an ano an
+SFX Z an anu an
+SFX Z an anih an
+SFX Z an anim an
+SFX Z an anog an
+SFX Z an anoj an
+SFX Z an anom an
+SFX Z an anima an
+SFX Z an anoga an
+SFX Z an anome an
+SFX Z èki èka èki
+SFX Z èki èke èki
+SFX Z èki èko èki
+SFX Z èki èku èki
+SFX Z èki èkih èki
+SFX Z èki èkim èki
+SFX Z èki èkog èki
+SFX Z èki èkoj èki
+SFX Z èki èkom èki
+SFX Z èki èkima èki
+SFX Z èki èkoga èki
+SFX Z èki èkome èki
+SFX Z ni na ni
+SFX Z ni ne ni
+SFX Z ni no ni
+SFX Z ni nu ni
+SFX Z ni nih ni
+SFX Z ni nim ni
+SFX Z ni nog ni
+SFX Z ni noj ni
+SFX Z ni nom ni
+SFX Z ni nima ni
+SFX Z ni noga ni
+SFX Z ni nome ni
+
+</code></pre></td></tr></table>
+</div> <!-- class=content -->
+<div class='footer'>generated  by cgit v0.10.2 at 2016-06-04 14:00:58 (GMT)</div>
+</div> <!-- id=cgit -->
+</body>
+</html>

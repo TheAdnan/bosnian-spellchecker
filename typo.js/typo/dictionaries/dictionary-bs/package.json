@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dictionary-bs",
+        "scope": null,
+        "escapedName": "dictionary-bs",
+        "name": "dictionary-bs",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/adnan/Documents/adnan-kicin/add-ons/bosnia-spell-checker/typo.js/typo"
+    ]
+  ],
+  "_from": "dictionary-bs@latest",
+  "_id": "dictionary-bs@1.0.2",
+  "_inCache": true,
+  "_location": "/dictionary-bs",
+  "_nodeVersion": "4.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/dictionary-bs-1.0.2.tgz_1465051531166_0.6410745265893638"
+  },
+  "_npmUser": {
+    "name": "frontyard",
+    "email": "nedim@frontyard.co"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dictionary-bs",
+    "scope": null,
+    "escapedName": "dictionary-bs",
+    "name": "dictionary-bs",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dictionary-bs/-/dictionary-bs-1.0.2.tgz",
+  "_shasum": "acdbe286848698db10adcb5a3ca2f2a5461e146e",
+  "_shrinkwrap": null,
+  "_spec": "dictionary-bs",
+  "_where": "/home/adnan/Documents/adnan-kicin/add-ons/bosnia-spell-checker/typo.js/typo",
+  "author": {
+    "name": "Nedim Cholich",
+    "email": "nedim@frontyard.co"
+  },
+  "bugs": {
+    "url": "https://github.com/frontyard/dictionary-bs/issues"
+  },
+  "dependencies": {},
+  "description": "Bosnian spelling dictionary in UTF-8",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "acdbe286848698db10adcb5a3ca2f2a5461e146e",
+    "tarball": "https://registry.npmjs.org/dictionary-bs/-/dictionary-bs-1.0.2.tgz"
+  },
+  "files": [
+    "index.aff",
+    "index.dic"
+  ],
+  "gitHead": "29e7ef74606d6ce9f3e3f28d949bdafa1055df55",
+  "homepage": "https://github.com/frontyard/dictionary-bs#readme",
+  "keywords": [
+    "spelling",
+    "myspell",
+    "hunspell",
+    "dictionary",
+    "bosnian",
+    "bosnia"
+  ],
+  "license": "LGPL-3.0",
+  "maintainers": [
+    {
+      "name": "frontyard",
+      "email": "nedim@frontyard.co"
+    }
+  ],
+  "name": "dictionary-bs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontyard/dictionary-bs.git"
+  },
+  "scripts": {},
+  "version": "1.0.2"
+}
